@@ -1,0 +1,173 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Wojciech} \headerlastnamestyle{Cichoradzki} \\
+	\vspace{2mm}
+	{\faEnvelope\ wojciech.cichoradzki@gmail.com} | {\faMobile\ +48 535 390 970} | {\faMapMarker\ Wrocław, Poland} | {\faLink\ github.com/mandriv}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{MEng Computer \& Electronic Systems}
+	{Univeristy of Strathclyde}
+	{Glasgow, UK}
+	{September 2015 – May 2020}
+	{}
+	\cventry
+	{Exchange, Computer Science}
+	{California State Polytechnic University}
+	{Pomona, CA, USA}
+	{August 2018 – May 2019}
+	{}
+\end{cventries}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+  \cventry
+  {Lead Software Developer}
+  {VizCareer Ltd.}
+  {Glasgow, UK}
+  {April 2018 – Present}
+  {\begin{cvitems}
+    \item {Responsible for designing software architecture required for large, interactive recruiting platform}
+    \item {Managed development team, reported progress to management, assigned and monitored tasks using agile methodologies}
+    \item {Developed React apps and AWS backend services}
+    \item {Achieved quick user growth and 100\% uptime of services}
+    \end{cvitems}}
+	\cventry
+	{React Developer}
+	{Startup Development House}
+	{Remote}
+	{March 2018 – April 2018}
+	{\begin{cvitems}
+		\item {Implemented most crucial user interfaces based on designs}
+    \item {Configured and developed React app's internal logic and data flow}
+		\end{cvitems}}
+  \cventry
+  {Software Developer}
+  {eoSurgical}
+  {Remote}
+  {September 2017 – February 2018}
+  {\begin{cvitems}
+    \item {Introduced updated authentication system that handled scopes and roles}
+    \item {Reorganized internal file handling using Node streams}
+    \item {Shipped full-fledged React Native app in three months}
+    \item {Integrated UI to handle new subscribtion model using Stripe API}
+    \end{cvitems}}
+  \cventry
+  {Software Developer Intern}
+  {eoSurgical}
+  {Edinburgh, UK}
+  {May, 2017 – August, 2017}
+  {\begin{cvitems}
+    \item {Refactored entire codebase to use modern ES6+, introduced tools such as Babel and ESLint}
+    \item {Introduced JSON Web Token based authentication}
+    \item {Implemented dynamic FAQ system based on current user's location, created interactive tutorial system}
+    \item {Optimised application for mobile screens and created error logging system}
+    \end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming:  & {\skill{ JavaScript (including latest syntax), Java, C++, C, bash, \LaTeX}} \\
+    Front-end: & {\skill{ ReactJS (up to 16.8), HTML5, CSS3, CSS in JS, SASS, AngularJS, jQuery, socket.io}} \\
+		Tools:  & {\skill{ Flow, Babel, ESLint, Webpack, Yarn, Gulp, Grunt, Jest, Enzyme, bower, browserify}} \\
+    Back-end: & {\skill{ NodeJS, express, restify, swagger, mongoose}} \\
+    AWS: & {\skill{ API Gateway, Lambda, Congito, CloudFront, CloudWatch, DynamoDB, Route 53, IAM, apex}} \\
+    Databases: & {\skill{ DynamoDB, MongoDB, MySQL, PostgreSQL}} \\
+    Mobile: & {\skill{ React Native}} \\
+    Dev Ops: & {\skill{ nginx, apache, pm2, DigitalOcean droplets}} \\
+    OS: & {\skill{ linux, macOS, Windows}} \\
+    Management: & {\skill{ agile, prototyping, sprint management}} \\
+    Languages: & {\skill{ English (proficient), Polish (native)}} \\
+    Other: & {\skill{ git, IoT, arduino, raspberry pi, networks, information security, freestyle skiing, kitesurfing}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+%\vspace{-7mm}
+%\cvsection{Projects}
+%\begin{cventries}
+	%\cventry
+	%{Great project kurwaaaa}
+	%{Project 1233}
+	%{Java, More java}
+	%{xd.com}
+	%{}
+
+	%\vspace{-5mm}
+	%\cventry
+	%{Secret goverment project}
+	%{Project 84924}
+	%{Java}
+	%{gov.ok}
+	%{}
+
+%\end{cventries}
+\vspace{-5mm}
+\cvsection{Awards}
+\begin{cvhonors}
+	\cvhonor
+	{Challange Winner}
+	{React online chat web app}
+	{Code for Good, JPMorgan, Glasgow}
+	{Nov 2017}
+\end{cvhonors}
+\end{document}
